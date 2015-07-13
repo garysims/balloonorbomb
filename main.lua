@@ -20,7 +20,6 @@ local bkg = display.newImage( "night_sky.png", halfW, halfH )
 score = 0
 scoreText = display.newText(score, halfW, 10)
 
-
 -- Called when the balloon is tapped by the player
 -- Increase score by 1
 local function balloonTouched(event)
